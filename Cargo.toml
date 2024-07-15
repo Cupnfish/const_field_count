@@ -1,0 +1,15 @@
+[package]
+name = "const_field_count"
+version = "0.1.0"
+edition = "2021"
+authors = ["Cupnfish <cupnfish@icloud.com>"]
+license = "MIT"
+repository = "https://github.com/Cupnfish/const_field_count"
+description = "A Rust procedural macro to derive a constant function for counting the number of fields in a struct."
+
+[dependencies]
+syn = { version = "2.0", features = ["full"] }
+quote = "1.0"
+
+[lib]
+proc-macro = true
