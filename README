@@ -11,8 +11,6 @@ To use the `FieldCount` derive macro, add the following to your `Cargo.toml`:
 const_field_count = "0.1.0"
 ```
 
-````
-
 Then, in your Rust code, you can derive the `FieldCount` trait for your structs:
 
 ```rust
@@ -36,5 +34,3 @@ fn main() {
 ## License
 
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-````
